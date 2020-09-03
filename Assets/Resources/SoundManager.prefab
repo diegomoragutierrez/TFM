@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4543603353004583604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4543603353004583610}
+  - component: {fileID: 3543584535847723532}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4543603353004583610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4543603353004583604}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3543584535847723532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4543603353004583604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad67b8325823e540a9091e93df58121, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: afa00ff166adf974aab59f74768fc6fc, type: 2}
+  selectionLevelMusic: {fileID: 8300000, guid: 2b4d738181bc4c743a5869036ce1070d, type: 3}
+  gameMenuMusic: {fileID: 8300000, guid: 497b9396ce393da4a9fbdb10f09c38d7, type: 3}
+  selectionShipMusic: {fileID: 8300000, guid: 904f451e9b9424043986bf1b3ef280cc, type: 3}
+  introMusicGame: {fileID: 8300000, guid: d25cd19e2cd0c5a4cb17a57018c5b789, type: 3}
+  musicGame: {fileID: 0}
+  winMusic: {fileID: 8300000, guid: be1da90572fb0ae4e94a84b7a8b2ae07, type: 3}
+  loseMusic: {fileID: 8300000, guid: eb25344ce53105d4780cf37eb740ad98, type: 3}
+  shopMusic: {fileID: 8300000, guid: 643c5d3a746bc4a4d850e752e1aa5f89, type: 3}
+  neutralizerRayShoot: {fileID: 8300000, guid: 793a65c830dc41841a51dce83004f4c4, type: 3}
+  expansiveWave: {fileID: 8300000, guid: bc9d375793db06b4c85ebf85f28e0e39, type: 3}
+  shipMoving: {fileID: 8300000, guid: 7f53d5da3962ac547bcbea09337fd5a9, type: 3}
+  playerHit: {fileID: 8300000, guid: 6fa8840a3cd435040a263631912393b2, type: 3}
+  neutralizerSoundHitEnemyShip: {fileID: 8300000, guid: 11cba8fd9abcf174dadc590c941e70d1,
+    type: 3}
+  naveEnemyShotSound: {fileID: 8300000, guid: 1d757b3536d85df4a9dfcdfd576fcc3b, type: 3}
+  garbageDestroyed: {fileID: 8300000, guid: 462b9387ca3a3124d8d7507ad1b1e2af, type: 3}
+  clickAlternative: {fileID: 8300000, guid: 8aa86f4ba58e49940a3dcf7b71d98d1f, type: 3}
+  click: {fileID: 8300000, guid: 2358c5bcacc00684f87db7594cdf9ed0, type: 3}

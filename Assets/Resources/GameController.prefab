@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6771168778465116997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6771168778465116999}
+  - component: {fileID: 6771168778465116996}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6771168778465116999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6771168778465116997}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.428005, y: 18.758297, z: -21.808569}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6771168778465116996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6771168778465116997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 584c45b4e6882db4ea380470f08f996b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedPlayerShip: {fileID: 0}
+  selectedLevel: {fileID: 11400000, guid: 0f5fb208c2ecb834fad666c0b2b5f2ba, type: 2}
+  gamePaused: 0
+  gameMode: 0
+  enemies:
+  - {fileID: 11400000, guid: 64e1df276fec58741b25872891e2b654, type: 2}
+  - {fileID: 11400000, guid: fe051580d7f981948af87f93ef2b4c6e, type: 2}
+  - {fileID: 11400000, guid: ddd09016bbed04f4da1ca973730aac69, type: 2}
+  - {fileID: 11400000, guid: e05170f0f3d138b4aa129e7fe72bf105, type: 2}
+  - {fileID: 11400000, guid: 24092d76ac2724e47b0f5959f5895a6a, type: 2}
+  - {fileID: 11400000, guid: a0ba5980c2bd5414d956751f3b4ebf22, type: 2}
+  garbage:
+  - {fileID: 11400000, guid: 5cfe322831aff6645aff32bb0aa65f51, type: 2}
+  - {fileID: 11400000, guid: 785f2d2621320c6499a6dafb2ee34434, type: 2}
+  vibration: 0
+  persistentData:
+    levelsUnlocked: 
+    shipsUnlocked: 
+    idLastLevel: 0
+    readHowToPlay: 0
+    credits: 0
+    CreditsLevel: []
+    ownedUpgrades: []
+    upgradesOfShips: []
+    times: []
+  playableLevels: {fileID: 11400000, guid: cbdd8bd5e36d42645b14a5c2190ae979, type: 2}
+  textLevels: {fileID: 11400000, guid: 1876a4bcc24090a439f76e751e9bf31e, type: 2}
+  playerShipUIInfo: {fileID: 11400000, guid: 776671fbe3824ac448370f17784965d5, type: 2}

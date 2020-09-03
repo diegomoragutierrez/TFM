@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: bad67b8325823e540a9091e93df58121
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - audioMixer: {fileID: 24100000, guid: afa00ff166adf974aab59f74768fc6fc, type: 2}
+  - musicGame: {instanceID: 0}
+  - selectionLevelMusic: {fileID: 8300000, guid: 2b4d738181bc4c743a5869036ce1070d,
+      type: 3}
+  - introMusicGame: {fileID: 8300000, guid: 7fdc42343226b634d9334f12bcb68750, type: 3}
+  - neutralizerRayShoot: {fileID: 8300000, guid: 793a65c830dc41841a51dce83004f4c4,
+      type: 3}
+  - click: {instanceID: 0}
+  - clickAlternative: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d77ba57dbedae949a51c467de86681a, type: 3}
+  m_Name: PlayableLevel1
+  m_EditorClassIdentifier: 
+  idLevel: 1
+  sceneName: Level1
+  levelName: Level1
+  difficulty: 0
+  enemies:
+  - {fileID: 11400000, guid: 64e1df276fec58741b25872891e2b654, type: 2}
+  - {fileID: 11400000, guid: ddd09016bbed04f4da1ca973730aac69, type: 2}
+  - {fileID: 11400000, guid: 24092d76ac2724e47b0f5959f5895a6a, type: 2}
+  - {fileID: 11400000, guid: a0ba5980c2bd5414d956751f3b4ebf22, type: 2}
+  obstacles:
+  - {fileID: 11400000, guid: 5cfe322831aff6645aff32bb0aa65f51, type: 2}
+  - {fileID: 11400000, guid: 785f2d2621320c6499a6dafb2ee34434, type: 2}
+  background: {fileID: 2100000, guid: fe092ae4e7105f4419590e97bfdebba3, type: 2}
+  timeUntilFirstEnemy: 3
+  timeUntilFirstGarbage: 4
+  maxEnemiesInScreen: 3
+  timeToBeat: 200
+  scoreToKeep: 100

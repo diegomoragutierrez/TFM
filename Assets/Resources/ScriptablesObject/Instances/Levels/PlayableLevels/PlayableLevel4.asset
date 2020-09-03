@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d77ba57dbedae949a51c467de86681a, type: 3}
+  m_Name: PlayableLevel4
+  m_EditorClassIdentifier: 
+  idLevel: 4
+  sceneName: Level4
+  levelName: Level4
+  difficulty: 0
+  enemies:
+  - {fileID: 11400000, guid: 64e1df276fec58741b25872891e2b654, type: 2}
+  - {fileID: 11400000, guid: fe051580d7f981948af87f93ef2b4c6e, type: 2}
+  - {fileID: 11400000, guid: ddd09016bbed04f4da1ca973730aac69, type: 2}
+  - {fileID: 11400000, guid: e05170f0f3d138b4aa129e7fe72bf105, type: 2}
+  - {fileID: 11400000, guid: 24092d76ac2724e47b0f5959f5895a6a, type: 2}
+  obstacles:
+  - {fileID: 11400000, guid: 5cfe322831aff6645aff32bb0aa65f51, type: 2}
+  - {fileID: 11400000, guid: 785f2d2621320c6499a6dafb2ee34434, type: 2}
+  background: {fileID: 2100000, guid: 05a48e5db1fabe94ba89f3e6c00c4134, type: 2}
+  timeUntilFirstEnemy: 5
+  timeUntilFirstGarbage: 2
+  maxEnemiesInScreen: 6
+  timeToBeat: 80
+  scoreToKeep: 100

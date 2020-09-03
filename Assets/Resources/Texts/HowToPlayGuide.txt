@@ -1,0 +1,12 @@
+At the superior part of the game you will see a bar like this. This is divided into three parts:
+
+Life: Number of hits your ship could recieve so you must kept it below 0 during all the level. 
+If you are hitted you will lose a life.
+
+Time: This time will be decremented, so you must end the current level before the time goes 0.
+
+Credits: You must end the current level with a value greather than 0, if you destroy enemies you will lose credits, so try to avoid enemies and their lasers instead of destroy them.
+
+You can destroy lasers and garbage without penalty.
+Expansive Wave can only destroy lasers and garbage.
+Neutralizer Ray can only neutralize enemy ships.

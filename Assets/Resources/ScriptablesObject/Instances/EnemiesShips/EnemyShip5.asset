@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a15b721e807e046a7a3d5ec2c534cd, type: 3}
+  m_Name: EnemyShip5
+  m_EditorClassIdentifier: 
+  id: 4
+  speed: 6
+  waitTimeToReset: 15
+  shipPrefab: {fileID: 4023617576038244003, guid: e60d2cd6af90e034895a7fe5983b96d7,
+    type: 3}
+  laserPrefab: {fileID: 4753921353804041910, guid: d5384f243300cac4d913b3bc8d75d7e0,
+    type: 3}
+  speedLaser: 10
+  waitTimeToShoot: 3
+  maxSizePoolLasers: 5
+  pointsWhenDestroyed: 15
+  soundAtDestroy: {fileID: 8300000, guid: d56ea728ac1bc8f49be46fca043450d7, type: 3}
+  soundEngine: {fileID: 8300000, guid: ce0f115604a85b949b5662ec32997eeb, type: 3}

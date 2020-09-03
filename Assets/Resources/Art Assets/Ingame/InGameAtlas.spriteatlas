@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: InGameAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 512
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 7d9367437e7708b458f834b83998e620, type: 3}
+    - {fileID: 2800000, guid: 6821821801fb0b74a92fde66b950d3d1, type: 3}
+    - {fileID: 2800000, guid: ae4240dba8a203b409fde52dc7a9b4f6, type: 3}
+    - {fileID: 2800000, guid: 511bf6cffa69680419fdc7529697cf3e, type: 3}
+    - {fileID: 2800000, guid: 310a7fa344f62a24ea3b00bcd72e8247, type: 3}
+    - {fileID: 2800000, guid: 937bc582079dec948aea43172ac36892, type: 3}
+    - {fileID: 2800000, guid: a7ff21a532d661b43b0ba02a6acfe9db, type: 3}
+    - {fileID: 2800000, guid: 985b4e2debceb6e4b858ed97b9ef2bdc, type: 3}
+    - {fileID: 2800000, guid: 457f4f83947b29549a347fe9797eaef4, type: 3}
+    - {fileID: 2800000, guid: 2c4f5905c1c8b774481395335c8628f9, type: 3}
+    - {fileID: 2800000, guid: 1de3cc523e2c30f49868a2153eba7cb2, type: 3}
+    - {fileID: 2800000, guid: 5a6a487f3c36762438dfa37ec923b6a6, type: 3}
+    totalSpriteSurfaceArea: 0
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites: []
+  m_PackedSpriteNamesToIndex: []
+  m_Tag: InGameAtlas
+  m_IsVariant: 0
